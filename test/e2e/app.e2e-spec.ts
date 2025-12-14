@@ -1,13 +1,14 @@
-// File: test/app.e2e-spec.ts
-import { Test, TestingModule } from '@nestjs/testing';
+// File: test/e2e/app.e2e-spec.ts
 import { INestApplication, ValidationPipe } from '@nestjs/common';
+import { Test, TestingModule } from '@nestjs/testing';
 import { useContainer } from 'class-validator';
 import request from 'supertest';
-import { App } from 'supertest/types';
-import { AppModule } from './../src/app.module';
+import type { Server } from 'node:http';
+
+import { AppModule } from '../../src/app.module';
 
 describe('AppController (e2e)', () => {
-  let app: INestApplication<App>;
+  let app: INestApplication<Server>;
 
   beforeEach(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({

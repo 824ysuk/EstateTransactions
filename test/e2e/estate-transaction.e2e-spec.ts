@@ -1,12 +1,13 @@
-// File: test/estate-transaction.e2e-spec.ts
+// File: test/e2e/estate-transaction.e2e-spec.ts
 import { INestApplication, ValidationPipe } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { useContainer } from 'class-validator';
 import request from 'supertest';
+import type { Server } from 'node:http';
 
-import { AppModule } from '../src/app.module';
-import { ESTATE_TRANSACTION_REPOSITORY } from '../src/modules/town-planning/estate-transaction/domain/tokens';
-import type { EstateTransactionRepository } from '../src/modules/town-planning/estate-transaction/domain/estate-transaction.repository';
+import { AppModule } from '../../src/app.module';
+import { ESTATE_TRANSACTION_REPOSITORY } from '../../src/modules/town-planning/estate-transaction/domain/tokens';
+import type { EstateTransactionRepository } from '../../src/modules/town-planning/estate-transaction/domain/estate-transaction.repository';
 
 function applyAppDefaults(app: INestApplication): void {
   app.setGlobalPrefix('api/v1');
@@ -21,7 +22,7 @@ function applyAppDefaults(app: INestApplication): void {
 }
 
 describe('EstateTransaction (e2e)', () => {
-  let app: INestApplication;
+  let app: INestApplication<Server>;
 
   afterEach(async () => {
     if (app) {
@@ -75,8 +76,8 @@ describe('EstateTransaction (e2e)', () => {
 
   it('該当なし: 404を返す（Repositoryを差し替えてnullにする）', async () => {
     const repo: EstateTransactionRepository = {
-      async findByKey() {
-        return null;
+      findByKey() {
+        return Promise.resolve(null);
       },
     };
 
