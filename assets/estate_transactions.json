@@ -1,0 +1,1010 @@
+[
+  {
+    "year": 2015,
+    "prefectureCode": 8,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2015,
+            "value": 22871
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 8,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2015,
+            "value": 45431
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 9,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2015,
+            "value": 21973
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 9,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2015,
+            "value": 58032
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 10,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2015,
+            "value": 22286
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 10,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2015,
+            "value": 37915
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 11,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2015,
+            "value": 79533
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 11,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2015,
+            "value": 152541
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 12,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2015,
+            "value": 58093
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 12,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2015,
+            "value": 132700
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 13,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "1",
+        "years": [
+          {
+            "year": 2015,
+            "value": 324740
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 13,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "2",
+        "years": [
+          {
+            "year": 2015,
+            "value": 833429
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 14,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2015,
+            "value": 143482
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "prefectureCode": 14,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2015,
+            "value": 284796
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 8,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2016,
+            "value": 22026
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 8,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2016,
+            "value": 49539
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 9,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2016,
+            "value": 23604
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 9,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2016,
+            "value": 44003
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 10,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2016,
+            "value": 22230
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 10,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2016,
+            "value": 50667
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 11,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2016,
+            "value": 86756
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 11,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2016,
+            "value": 160482
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 12,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2016,
+            "value": 62035
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 12,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2016,
+            "value": 103708
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 13,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "1",
+        "years": [
+          {
+            "year": 2016,
+            "value": 328199
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 13,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "2",
+        "years": [
+          {
+            "year": 2016,
+            "value": 836488
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 14,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2016,
+            "value": 144934
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "prefectureCode": 14,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2016,
+            "value": 370989
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 8,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2017,
+            "value": 21220
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 8,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2017,
+            "value": 46462
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 9,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2017,
+            "value": 24549
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 9,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2017,
+            "value": 46307
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 10,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2017,
+            "value": 22857
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 10,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2017,
+            "value": 46022
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 11,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2017,
+            "value": 84574
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 11,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2017,
+            "value": 169233
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 12,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2017,
+            "value": 64535
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 12,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2017,
+            "value": 109343
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 13,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "1",
+        "years": [
+          {
+            "year": 2017,
+            "value": 347678
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 13,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "2",
+        "years": [
+          {
+            "year": 2017,
+            "value": 864732
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 14,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2017,
+            "value": 149083
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "prefectureCode": 14,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2017,
+            "value": 479830
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 8,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2018,
+            "value": 20918
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 8,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "8",
+        "prefectureName": "茨城県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2018,
+            "value": 43909
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 9,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2018,
+            "value": 23812
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 9,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "9",
+        "prefectureName": "栃木県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2018,
+            "value": 42413
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 10,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2018,
+            "value": 23785
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 10,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "10",
+        "prefectureName": "群馬県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2018,
+            "value": 46381
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 11,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2018,
+            "value": 83531
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 11,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "11",
+        "prefectureName": "埼玉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2018,
+            "value": 165969
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 12,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2018,
+            "value": 65297
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 12,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "12",
+        "prefectureName": "千葉県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2018,
+            "value": 114066
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 13,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "1",
+        "years": [
+          {
+            "year": 2018,
+            "value": 356100
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 13,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "13",
+        "prefectureName": "東京都",
+        "type": "2",
+        "years": [
+          {
+            "year": 2018,
+            "value": 929940
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 14,
+    "type": 1,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "1",
+        "years": [
+          {
+            "year": 2018,
+            "value": 149068
+          }
+        ]
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "prefectureCode": 14,
+    "type": 2,
+    "data": {
+      "result": {
+        "prefectureCode": "14",
+        "prefectureName": "神奈川県",
+        "type": "2",
+        "years": [
+          {
+            "year": 2018,
+            "value": 363272
+          }
+        ]
+      }
+    }
+  }
+]
