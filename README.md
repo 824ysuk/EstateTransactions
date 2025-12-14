@@ -4,6 +4,10 @@
 
 不動産取引価格を検索して返すAPI（NestJS）
 
+## アーキテクチャ
+
+設計概要は [docs/architecture.md](docs/architecture.md) を参照する
+
 ## ゴール
 
 GET /api/v1/townPlanning/estateTransaction/bar に対して、クエリ（year, prefectureCode, type）を受け取り、assets/estate_transactions.json を参照して該当の取引価格（円/㎡）を返す
