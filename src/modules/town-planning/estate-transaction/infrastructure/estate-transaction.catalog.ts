@@ -10,6 +10,7 @@ import {
   SPEC_YEAR_MAX,
   SPEC_YEAR_MIN,
 } from '../domain/constraints';
+import type { EstateType } from '../domain/estate-transaction.types';
 
 type RawRecord = {
   year: number;
@@ -29,27 +30,25 @@ export type EstateTransactionNormalized = {
   year: number;
   prefectureCode: number;
   prefectureName: string;
-  type: 1 | 2;
+  type: EstateType;
   value: number;
 };
 
 @Injectable()
 export class EstateTransactionCatalog implements OnModuleInit {
+  private readonly jsonPathEnvKey = 'ESTATE_TRANSACTIONS_JSON_PATH' as const;
+
   private readonly years = new Set<number>();
   private readonly prefectureCodes = new Set<number>();
-  private readonly types = new Set<number>();
+  private readonly types = new Set<EstateType>();
   private readonly index = new Map<string, EstateTransactionNormalized>();
 
   async onModuleInit(): Promise<void> {
-    const filePath = path.resolve(
-      process.cwd(),
-      'assets',
-      'estate_transactions.json',
-    );
+    const filePath = this.resolveJsonPath();
     const json = await fs.readFile(filePath, 'utf-8');
     const parsed = JSON.parse(json) as unknown;
     if (!Array.isArray(parsed)) {
-      throw new Error('estate_transactions.json must be an array');
+      throw new Error(`estate transactions json must be an array: ${filePath}`);
     }
 
     for (const item of parsed as RawRecord[]) {
@@ -79,6 +78,7 @@ export class EstateTransactionCatalog implements OnModuleInit {
   }
 
   hasType(type: number): boolean {
+    if (!this.isSpecType(type)) return false;
     return this.types.has(type);
   }
 
@@ -86,7 +86,7 @@ export class EstateTransactionCatalog implements OnModuleInit {
     return year >= SPEC_YEAR_MIN && year <= SPEC_YEAR_MAX;
   }
 
-  isSpecType(type: number): boolean {
+  isSpecType(type: number): type is EstateType {
     return (SPEC_ESTATE_TYPES as readonly number[]).includes(type);
   }
 
@@ -135,13 +135,26 @@ export class EstateTransactionCatalog implements OnModuleInit {
     if (typeof value !== 'number') {
       throw new Error('invalid record: value is required');
     }
+    if (!this.isSpecType(type)) {
+      throw new Error(
+        `invalid record: type must be one of ${SPEC_ESTATE_TYPES.join(', ')}`,
+      );
+    }
 
     return {
       year,
       prefectureCode,
       prefectureName,
-      type: type === 1 ? 1 : 2,
+      type,
       value,
     };
+  }
+
+  private resolveJsonPath(): string {
+    const configured = process.env[this.jsonPathEnvKey];
+    if (configured && configured.trim().length > 0) {
+      return path.resolve(process.cwd(), configured);
+    }
+    return path.resolve(process.cwd(), 'assets', 'estate_transactions.json');
   }
 }

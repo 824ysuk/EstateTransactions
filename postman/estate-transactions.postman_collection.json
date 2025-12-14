@@ -1,0 +1,63 @@
+{
+  "info": {
+    "_postman_id": "b77a6e2c-2d7c-4a23-9d08-8b2e5f4b64f1",
+    "name": "estate-transactions-api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET estateTransaction bar (200)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:3000/api/v1/townPlanning/estateTransaction/bar?prefectureCode=13&year=2015&type=1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "v1", "townPlanning", "estateTransaction", "bar"],
+          "query": [
+            { "key": "prefectureCode", "value": "13" },
+            { "key": "year", "value": "2015" },
+            { "key": "type", "value": "1" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET estateTransaction bar (400: year not supported)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:3000/api/v1/townPlanning/estateTransaction/bar?prefectureCode=13&year=2014&type=1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "v1", "townPlanning", "estateTransaction", "bar"],
+          "query": [
+            { "key": "prefectureCode", "value": "13" },
+            { "key": "year", "value": "2014" },
+            { "key": "type", "value": "1" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET estateTransaction bar (400: prefectureCode not supported)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:3000/api/v1/townPlanning/estateTransaction/bar?prefectureCode=1&year=2015&type=1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "v1", "townPlanning", "estateTransaction", "bar"],
+          "query": [
+            { "key": "prefectureCode", "value": "1" },
+            { "key": "year", "value": "2015" },
+            { "key": "type", "value": "1" }
+          ]
+        }
+      }
+    }
+  ]
+}
